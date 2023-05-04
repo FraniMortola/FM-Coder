@@ -1,0 +1,523 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{background-color: white;}
+
+header{
+    position: sticky;
+    top: 0px;
+    width: 100%;  
+
+}
+header nav ul li :hover{
+    text-decoration: underline;
+}
+
+header nav ul li a,header nav ul{
+    
+    color: rgb(57, 51, 51);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large ;
+    font-weight: 300;
+    text-decoration: none;
+    list-style: none;
+    background-color: white;
+    
+   
+}
+header nav ul li{
+    border-left: solid 3px gray;
+    padding-left: 10px;
+  
+}
+
+header img {
+    width: 200px;
+    height: 200px
+}
+
+
+.img1, .img2, .img3 ,.img4 , .img5,.img6{
+ 
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  
+}
+
+.home {
+    color: rgb(60, 56, 56);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 250;
+    
+}
+.quote_1, .quote_2{
+    
+    color: black;
+    font-size: x-large;
+    background-color: whitesmoke;
+    border-radius: 6px;
+    margin: 20px;
+    padding: 20px;
+   
+}
+
+
+.home h1{
+    font-size: 50px;
+    font-weight:400;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    
+}
+.home h2{
+    font-size: x-large;
+    text-align: center;
+    font-weight: 200;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#readmore a{
+    color: rgb(63, 61, 61);
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(205, 200, 200);
+    border-radius: 8px;
+    font-weight: 500;
+    padding: 15px;
+    margin: 20px;
+
+    
+}
+
+footer{
+    background-color: rgb(238, 237, 237);
+    bottom: 0px;
+    
+}
+
+footer p{
+    color: gray;
+    opacity: 4;
+    font: caption;
+    font-size: small;
+    text-align: left;
+
+
+}
+footer ul li a, footer ul li{
+    list-style: none;
+    text-align: right;
+}
+
+footer img {
+
+    width:20px;
+    height:20px
+}
+
+#about{
+    color: rgb(69, 65, 65);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+#about h1{
+    font-size: 80px;
+    font-weight: 350;
+    text-align: center;
+    margin-top: 30px;
+}
+.yo1 , .yo2 , .yo3 {
+    
+    font-size: x-large;
+    font-weight: 200;
+    padding: 7px;
+    margin: 10px;
+}
+
+.yoimg1, .yoimg2, .yoimg3{
+
+    width:500px;
+    height:500px
+}
+
+#port_title,li{
+    color: rgb(71, 67, 67);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: xxx-large;
+    list-style: none;
+    margin: 35px;
+   
+    
+    
+}
+.port1{
+text-align: left;
+}
+.port2{
+    text-align: right;
+}
+
+.photosport div a {
+text-decoration: none;
+ color: rgb(47, 45, 45);
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-weight: 300;
+ font-size: x-large;
+ border: none 1px ;
+ padding: 10px;margin: 10px;
+ 
+}
+
+.photosport img {
+
+    width: 350px;
+    height: 350px;
+}
+
+.photosport div :hover{
+   font-weight: 400;
+}
+
+#contact{
+    color: rgb(75, 73, 73);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 35px;
+}
+#contact h1{
+    font-size: xxx-large;
+    font-weight: 400;
+}
+#contact h2{
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+
+.details{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    font-size: x-large;
+    color: rgb(28, 25, 25);
+
+    
+}
+.d_1,.d_2,.d_3{
+    background-color: rgb(197, 197, 197);
+    padding: 5px;
+    padding-right: 400px;
+    border-radius: 8px;
+   
+ 
+
+
+}
+.d_4{
+    background-color: rgb(197, 197, 197);
+    padding-right: 600px;
+    padding-bottom: 300px;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+#submit a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+    background-color: rgb(205, 200, 200);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 50px;
+    font-weight: 700;
+
+}
+
+#shopprints {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(88, 84, 84);
+    font-size: xxx-large;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.shopp div a{
+    color: rgb(60, 57, 57);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: larger;
+    padding: 7px;
+    margin: 10px;
+   
+}
+
+.shopp img{
+    width: 200px;
+    height: 300px;
+   
+}
+
+.shopp div a:hover{
+text-transform: uppercase;
+
+}
+
+
+
+/* fin de estilos */
+
+
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-right: 60px; 
+    gap: 0;
+}
+
+
+
+header{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:baseline;
+    
+}
+
+
+#imgind , #imgind2 {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: 1fr;  
+    justify-content: center;
+    
+    
+}
+
+
+section .quote_1{
+    
+    justify-content: left;
+}
+
+section .quote_2 {
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+}
+
+h1, h2 {
+    
+    
+    justify-content: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    align-items: center;
+}
+
+#readmore {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+footer{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-top: 35px;
+    margin-top: 20px;
+}
+
+footer p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+
+}
+footer section ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:right;
+    gap: 10px;
+    margin-right: 5px;
+}
+
+
+
+
+/* about */
+
+#abouttext{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat (3,1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+    justify-content: start;
+    align-content: center;
+   
+}
+
+.yo1, .yo2,.yo3{
+    border-bottom: solid 2px gray;
+}
+
+.yo1 , .yoimg2 , .yo3{
+    justify-self: center;
+    align-self: center;
+    
+}
+
+.yoimg1 , .yo2 , .yoimg3 {
+    justify-self: center;
+    align-self: center;
+    
+}
+
+
+
+/* portfolio */
+
+#port_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;  
+    gap: 100px;
+    align-items: center;
+}
+
+.photosport{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: repeat(3,1fr);
+    width: 95%;
+    row-gap: 15px;
+    column-gap: 25px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.photosport div {
+    justify-self:center;
+    align-self: center;
+}
+
+/* contact */
+
+.details{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    align-items:flex-start;
+   
+
+}
+
+#submit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    
+}
+
+/* shop */
+
+#shopprints{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.shopp{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: auto;
+    row-gap: 15px;
+    justify-items: center;
+    align-items: center;
+
+}
+.shopp .precios {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+/* media mobile */
+
+
+@media (max-width:800px){
+
+   header nav ul {
+    flex-flow: row nowrap;
+    width: 100%;
+    column-gap: 0;
+
+   }
+  
+       
+   #imgind , #imgind2 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+  }
+
+    .home h1{
+        margin: 45px;
+    }
+
+    #readmore{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    #abouttext{
+        grid-template-columns:repeat(2,50%);
+        grid-template-rows: repeat (3,1fr);
+       
+
+    }
+   
+    
+
+    #port_title{
+        display: none;
+    }
+
+
+    .shopp{
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+    }
+}
+
+
+
+
+
+
